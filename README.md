@@ -15,3 +15,4 @@ The model for predicting house prices given a set of features.
 3. RandomForestRegressor
 
 ![Screenshot (74)](https://github.com/Nitesh16Tiwari/Dragon_Real_Estate_NT/assets/149307978/7ae138c0-af75-46e7-b99f-d3699f47faa8)
+![Screenshot (73)](https://github.com/Nitesh16Tiwari/Dragon_Real_Estate_NT/assets/149307978/4b6578d7-1f3b-4c2d-b90c-8f0728ce4847)
