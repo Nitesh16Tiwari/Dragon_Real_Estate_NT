@@ -13,3 +13,5 @@ The model for predicting house prices given a set of features.
 1. LinearRegression
 2. DecisionTreeRegressor
 3. RandomForestRegressor
+
+![Screenshot (74)](https://github.com/Nitesh16Tiwari/Dragon_Real_Estate_NT/assets/149307978/7ae138c0-af75-46e7-b99f-d3699f47faa8)
