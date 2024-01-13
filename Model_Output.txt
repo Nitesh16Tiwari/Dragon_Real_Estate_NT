@@ -1,0 +1,27 @@
+
+1. Linear Regression 
+    Mean:  5.031248394312089
+    Standard Deviation:  1.0505301317319928
+
+Linear Regression
+My target variable has a small range, say from 5 to 50, an RMSE of 4.8285 might be relatively high. In contrast, if your target variable has a larger scale, the same RMSE might be more acceptable. So , this model i am going to discard because the MSE 23.3151 is also not that good error is high . Discarding this model.
+
+
+2. Decision Tree Regressor
+    Mean:  4.150994467892717
+    Standard Deviation:  0.8265545889411419
+
+Decision Tree Regressor Here i am getting an MSE of 0.0 and RMSE of 0.0 , it indicates that the model has perfectly fit the training data. This situation is often a sign of overfitting, where the model captures the noise and intricacies of the training data to an extent that it doesn't generalize well to new, unseen data. Lets apply some better evaluation technique on this
+
+
+3. Random Forest Regressor
+    Mean:  3.35479664063845
+    Standard Deviation:  0.6808589032387713
+
+Random Forest model shows promising performance on the training data with an MSE of 1.44 and RMSE of 1.200. While these metrics suggest accurate predictions, caution is warranted to avoid potential overfitting. To ensure reliable generalization to new data, consider employing techniques like cross-validation for a comprehensive evaluation and refinement of the model. Lets apply some better evaluation technique on this
+
+
+
+Conclusion Between models 
+
+After checking both models, Random Forest and Decision Tree, it seems they make similar errors, fitting well with our target variable's range. This suggests both models work well for predicting our variable. However, I'm leaning towards Random Forest because it appears slightly more effective. We'll keep an eye on how they perform with new data, but for now, Random Forest looks like the better choice.
